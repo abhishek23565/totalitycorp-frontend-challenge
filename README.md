@@ -1,70 +1,66 @@
-# Getting Started with Create React App
+Project Documentation: E-commerce Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Overview
+This project is an E-commerce website developed using React, a popular JavaScript library for building user interfaces. The goal of this website is to provide an online platform for customers to browse and purchase various products. The website incorporates essential e-commerce functionalities such as categories, product listing, searching, filtering, single product view with related products, Cart Functionality, Checkout Form with fully responsive design.
 
-## Available Scripts
+Features
+The E-commerce website includes the following key features:
 
-In the project directory, you can run:
+Product Catalog:
+• Display a list of products with their details such as name, price, image and add to cart button at single product page.
+• Categorize products into different categories for easy navigation.
+• Provide filters to refine product listings based on criteria like category, brand, etc.
 
-### `npm start`
+Product Details:
+• Show detailed information about a specific product, including its description, specifications, price and ratings.
+• Display product images.
+• Add products to the cart from the product details page.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Cart Management:
+• The Add to Cart button on the single product page will add the product to the cart.
+• The products added to cart will be visible on the cart page with its price and details.
+• You can increase or decrease the product count and also remove the product from the cart by clicking the Remove button.
+• The total pricing will change on the real time on increase, decrease or removal of the product from the cart list.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Customer Checkout Form:
+• The customer checkout form is also available on the cart page.
+• The customer can fill the shipment details as well as the payment details in the form and checkout the cost of items present in the cart.
 
-### `npm test`
+Search Functionality:
+• Enable customers to search for products using keywords or specific criteria.
+• Provide search suggestions or auto-complete functionality for ease of use.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Responsive Design:
+• Ensure the website is fully responsive and optimized for various devices, including desktops, tablets, and mobile phones.
+• Provide a seamless and consistent user experience across different screen sizes.
 
-### `npm run build`
+Technology Stack:
+The E-commerce website is built using the following technologies and frameworks:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+• React: The core JavaScript library for building the user interface and managing the application state.
+• React Router: Used for handling client-side routing and navigation within the website.
+• Context API: A state management library to efficiently manage and share application data across components.
+• Axios: A popular HTTP client library to handle API requests and responses.
+• HTML5/CSS3/SASS: Markup and styling languages for structuring and designing the website.
+• Bootstrap: A CSS framework for responsive and mobile-first web development.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Installation and Setup:
+To run the E-commerce website locally on your machine, follow these steps:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+• Clone the project repository from GitHub: git clone https://github.com/abhishek23565/totalitycorp-frontend-challenge/tree/master
+• Navigate to the project directory: cd e-commerce-website
+• Install the project dependencies: npm install
+• Configure the necessary environment variables, such as API .
+• Start the development server: npm start
+• Open your browser and visit http://localhost:3000 to access the E-commerce website.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Project Structure:
+The project follows a structured organization to ensure maintainability and scalability. The directory structure may look similar to the following:
+├── public
+│ ├── index.html
+│ └── ...
+├── src
+│ ├── Assets
+│ ├── Components
+├── ContextStore
+│
